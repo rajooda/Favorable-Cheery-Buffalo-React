@@ -8,8 +8,8 @@ const Home = (props) => {
   return (
     <div className="home-container1">
       <Helmet>
-        <title>Favorable Cheery Buffalo</title>
-        <meta property="og:title" content="Favorable Cheery Buffalo" />
+        <title>AyaExpanse</title>
+        <meta property="og:title" content="AyaExpanse" />
       </Helmet>
       <div className="home-pagecontainer">
         <div id="bannerContainer" className="home-banner bannerStyle">
