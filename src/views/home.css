@@ -1,0 +1,96 @@
+.home-container1 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.home-pagecontainer {
+  flex: 1;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #D9D9D9;
+}
+ 
+.home-banner {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 183px;
+  display: flex;
+  align-items: center;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  justify-content: center;
+  background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%);
+}
+ 
+.home-text1 {
+  text-align: center;
+}
+ 
+.home-controlscontainer {
+  width: 100%;
+  height: 81px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dfa719;
+}
+ 
+.home-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+ 
+.home-container3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+ 
+.home-button {
+  width: var(--dl-size-size-large);
+}
+ 
+.home-textcontainer {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ 
+.home-optextcontainer {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 322px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.home-inputtextcontainer {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 322px;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  justify-content: flex-start;
+}
+ 
+.home-textarea {
+  width: 100%;
+  height: 100%;
+}
