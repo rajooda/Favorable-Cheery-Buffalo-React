@@ -93,4 +93,13 @@
 .home-textarea {
   width: 100%;
   height: 100%;
+  resize: none;
+}
+ 
+@media(max-width: 1600px) {
+  .home-textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+  }
 }
